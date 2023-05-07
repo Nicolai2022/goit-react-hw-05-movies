@@ -6,14 +6,15 @@ export const CastContainer = styled.section`
 
 export const CastTitle = styled.h2`
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size:44px;
+  color: #254685;
   text-align: center;
 `;
 
 export const CastList = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 24px;
 `;
 
 export const CastListItem = styled.li`
@@ -22,11 +23,11 @@ export const CastListItem = styled.li`
   align-items: center;
   gap: 10px;
   width: 220px;
-  background-color: #fff;
+  background-color: #115865;
   padding: 10px;
   border: 1px solid;
   border-radius: 4px;
-  box-shadow: 4px 2px 2px #999696;
+  box-shadow: 4px 2px 2px #115852;
   list-style: none;
 `;
 
@@ -36,5 +37,6 @@ export const CastDescription = styled.div`
 
 export const CastText = styled.p`
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
+  color: #282185;
 `;

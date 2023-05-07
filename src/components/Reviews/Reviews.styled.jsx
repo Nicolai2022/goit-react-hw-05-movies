@@ -8,11 +8,13 @@ export const ReviewsTitle = styled.h2`
   margin-bottom: 20px;
   font-size: 30px;
   text-align: center;
+  color: #547866;
 `;
 
 export const ReviewsSubTitle = styled.h3`
   margin-bottom: 20px;
   font-size: 20px;
+  color: #547866;
 `;
 
 export const ReviewsList = styled.ul`
@@ -27,4 +29,5 @@ export const ReviewsListItem = styled.li`
 
 export const ReviewsText = styled.p`
   font-size: 14px;
+  color: #547866;
 `;

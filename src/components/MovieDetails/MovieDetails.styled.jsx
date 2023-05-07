@@ -18,7 +18,7 @@ export const MovieReviewContainer = styled.div`
   display: flex;
   gap: 20px;
   padding: 20px 0;
-  border-bottom: 2px solid #552486;
+  border-bottom: 2px solid #152486;
 `;
 
 export const MovieInfoContainer = styled.div`
@@ -29,14 +29,17 @@ export const MovieInfoContainer = styled.div`
 
 export const MovieTitle = styled.h2`
   font-size: 30px;
+  color: #547866;
 `;
 
 export const MovieSubTitle = styled.h3`
   font-size: 20px;
+  color: #547866;
 `;
 
 export const MovieText = styled.p`
   font-size: 16px;
+  color: #547866;
 `;
 
 export const MovieList = styled.ul`
