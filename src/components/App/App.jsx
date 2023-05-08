@@ -4,7 +4,7 @@ import SharedLayout from 'components/SharedLayout/SharedLayout';
 
 import { AppContainer } from 'components/App/App.styled';
 
-// const Home = lazy(() => import('../../pages/Home'));
+const Home = lazy(() => import('../../pages/Home'));
 const Movies = lazy(() => import('../../pages/Movies'));
 const MovieDetails = lazy(() => import('../MovieDetails/MovieDetails'));
 const Cast = lazy(() => import('../Cast/Cast'));
